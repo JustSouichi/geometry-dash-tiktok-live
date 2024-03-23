@@ -7,7 +7,7 @@ tiktokLiveConnection.connect().then(state => {
     console.info(`Connected to roomId ${state.roomId}`);
     tiktokLiveConnection.on('gift', (gift) => {
         if (gift.giftId === 5655) { 
-            console.log('rose received');
+            console.log('rose received so lets jump!');
         }
     });
 }).catch(err => {
